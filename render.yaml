@@ -25,8 +25,9 @@ services:
 
 databases:
   - name: sigo-dental-db
+    plan: free
     databaseName: sigodental
     user: sigodental
-    postgresMajorVersion: "18"
+    postgresMajorVersion: "16"
     region: oregon
     ipAllowList: []
